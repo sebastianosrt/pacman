@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="pacman" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/pacman" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c11" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="D:/OneDrive/Desktop/projects/pacman/allegro/lib/liballegro-5.0.10-monolith-mt-debug.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/pacman" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="D:/OneDrive/Desktop/projects/pacman/allegro/lib/liballegro-5.0.10-monolith-mt.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="D:/OneDrive/Desktop/projects/pacman/allegro/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="D:/OneDrive/Desktop/projects/pacman/allegro/bin" />
+		</Linker>
+		<Unit filename="algif.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="algif.h" />
+		<Unit filename="astar.h" />
+		<Unit filename="base.h" />
+		<Unit filename="bitmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gif.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lzw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pacman.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
