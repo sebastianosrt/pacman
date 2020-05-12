@@ -16,8 +16,6 @@ Then extract the files in the project directory, for example: z:\allegro\
 
 Open the project in CodeBlocks and:
 
-Start a new project (File→New→Project→Empty project)
-
 ● Right-click the project file and go to Build Options
 
 ● Right-click the project name, go to Search directories → compiler → add, and add z:\allegro\include
